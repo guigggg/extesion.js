@@ -1,1 +1,1 @@
-javascript:(function(){$.getScript('https://rawgit.com/guigggg/extesion.js/master/Gbot.js');})();
+javascript:(function(){$.getScript('https://rawgit.com/guigggg/extesion.js/master/extesion.js');})();
