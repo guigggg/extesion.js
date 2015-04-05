@@ -185,7 +185,7 @@
         loggedInID: guigggg,
         scriptLink: "https://rawgit.com/Yemasthui/basicBot/master/basicBot.js",
         cmdLink: "http://git.io/245Ppg",
-        chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/pt.json",
+        chatLink: "https://rawgit.com/guigggg/extesion.js/master/pt.json",
         chat: null,
         loadChat: loadChat,
         retrieveSettings: retrieveSettings,
@@ -193,7 +193,7 @@
         settings: {
             botName: "GBot",
             language: "portuguese",
-            chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/pt.json",
+            chatLink: "https://rawgit.com/guigggg/extesion.js/master/pt.json",
             startupCap: 1, // 1-200
             startupVolume: 0, // 0-100
             startupEmoji: true, // true or false
