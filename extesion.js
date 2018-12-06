@@ -54,7 +54,7 @@
     var loadChat = function (cb) {
         if (!cb) cb = function () {
         };
-        $.get("https://rawgit.com/Yemasthui/basicBot/master/lang/langIndex.json", function (json) {
+        $.get("https://cdn.jsdelivr.net/gh/Yemasthui/basicBot/lang/langIndex.json", function (json) {
             var link = basicBot.chatLink;
             if (json !== null && typeof json !== "undefined") {
                 langIndex = json;
@@ -183,9 +183,9 @@
         status: false,
         name: "GBot",
         loggedInID: guigggg,
-        scriptLink: "https://rawgit.com/Yemasthui/basicBot/master/basicBot.js",
+        scriptLink: "https://cdn.jsdelivr.net/gh/Yemasthui/basicBot/basicBot.js",
         cmdLink: "http://git.io/245Ppg",
-        chatLink: "https://rawgit.com/guigggg/extesion.js/master/pt.json",
+        chatLink: "https://cdn.jsdelivr.net/gh/guigggg/extesion.js/pt.json",
         chat: null,
         loadChat: loadChat,
         retrieveSettings: retrieveSettings,
@@ -193,7 +193,7 @@
         settings: {
             botName: "GBot",
             language: "portuguese",
-            chatLink: "https://rawgit.com/guigggg/extesion.js/master/pt.json",
+            chatLink: "https://cdn.jsdelivr.net/gh/guigggg/extesion.js/pt.json",
             startupCap: 1, // 1-200
             startupVolume: 0, // 0-100
             startupEmoji: true, // true or false
